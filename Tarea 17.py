@@ -13,7 +13,7 @@ lang = ["Español","Ingles","Frances","Portugues"]
 
 #Creamos los objetos con sus correspondientes parametros
 list = tk.StringVar(value=lang)
-frame = tk.Frame(window, bg="Blue")
+frame = tk.Frame(window)
 listbox =tk.Listbox(frame,listvariable=list,height=4)
 label = tk.Label(window,text="Lista de idiomas")
 
